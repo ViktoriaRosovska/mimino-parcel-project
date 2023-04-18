@@ -13,6 +13,7 @@
 
 .section {
     background-color: var(--ligth-theme-color);
+    min-width: 320px;
 }
 .section--dark-theme {
     background-color: var(--dark-theme-color);
@@ -42,6 +43,32 @@
     padding-top: 40px;
 }
 
+
+.btn--group {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 14px;
+    justify-content: center;
+}
+
+.btn {
+    background: none;
+    padding: 8px 18px;
+    border-radius: 32px;
+    text-transform: uppercase;
+    
+    border: .8px solid var(--dark-theme-color);
+    color: var(--dark-theme-color);
+}
+
+.btn--light-theme {
+    
+    border-color: var(--ligth-theme-color);
+    color: var(--ligth-theme-color);
+
+}
+
 .site-title {
     text-transform: uppercase;
 
@@ -53,12 +80,28 @@
     margin-bottom: 24px;
     
     text-align: center;
-   
 }
 
+.section-title {
+    letter-spacing: -.02em;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+} 
+.home__section-title {
+    font-weight: 500;
+    line-height: 1;
+    font-size: 40px;
+}
+.home__section-title--welcome {
+    font-size: 32px;
+    line-height: 1.12;
+}
 .paragraph {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.29;
     letter-spacing: .05em;
+}
+.home__paragraph {
+    margin-bottom: 32px;
 }
