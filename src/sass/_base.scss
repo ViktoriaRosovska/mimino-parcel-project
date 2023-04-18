@@ -105,3 +105,12 @@
 .home__paragraph {
     margin-bottom: 32px;
 }
+
+.room__image--small-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 19px;
+    margin-top: 28px;
+
+}

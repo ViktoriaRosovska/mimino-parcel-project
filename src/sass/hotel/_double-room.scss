@@ -1,9 +1,8 @@
 .room__image--small-group {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     gap: 19px;
     margin-top: 28px;
-}
-.hotel__slider-group {
-    margin-bottom: 82px;
+   
 }

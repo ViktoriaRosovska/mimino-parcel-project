@@ -2,10 +2,14 @@
 @import './reset';
 @import './variables';
 @import './base';
+
+// Home page
 @import './home/home-hero';
 @import './home/about-complex';
-
-
 @import './home/welcome';
 @import './home/hotel-details';
+
+// Hotel page
+
+
 @import './common';
