@@ -105,7 +105,9 @@
 .home__paragraph {
     margin-bottom: 32px;
 }
-
+.restaurant__paragraph {
+    margin-bottom: 24px;
+}
 .room__image--small-group {
     display: flex;
     flex-direction: row;
@@ -113,4 +115,28 @@
     gap: 19px;
     margin-top: 28px;
 
+}
+.amenities {
+    
+    margin-bottom: 40px;
+    // list-style-image: url(/src/images/svg/twitter.svg);
+}
+
+amenities__item {
+   
+   
+}
+.amenities__item::before {
+    content: '';
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: var(--ligth-theme-color);
+    
 }
