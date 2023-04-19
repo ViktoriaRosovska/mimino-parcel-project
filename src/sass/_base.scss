@@ -57,7 +57,7 @@
     padding: 8px 18px;
     border-radius: 32px;
     text-transform: uppercase;
-    
+    display: block;
     border: .8px solid var(--dark-theme-color);
     color: var(--dark-theme-color);
 }
@@ -68,7 +68,12 @@
     color: var(--ligth-theme-color);
 
 }
-
+.btn-position--center {
+    
+    margin-right: auto;
+    margin-left: auto;
+    
+}
 .site-title {
     text-transform: uppercase;
 
@@ -97,8 +102,6 @@
     line-height: 1.12;
 }
 .paragraph {
-    font-size: 14px;
-    font-weight: 400;
     line-height: 1.29;
     letter-spacing: .05em;
 }
@@ -116,22 +119,22 @@
     margin-top: 28px;
 
 }
-.amenities {
+.list-point {
     
     margin-bottom: 40px;
-    // list-style-image: url(/src/images/svg/twitter.svg);
+   
 }
 
-amenities__item {
+list-point__item {
    
    
 }
-.amenities__item::before {
+.list-point__item::before {
     content: '';
     display: inline-block;
     position: relative;
     vertical-align: middle;
-    margin-left: 10px;
+    margin-left: 8px;
     margin-right: 10px;
 
     width: 4px;

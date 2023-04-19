@@ -1,0 +1,58 @@
+.restaurant-menu__container {
+    margin-bottom: 40px;
+}
+.restaurant-menu {
+    margin-bottom: 32px;
+}
+
+// @media screen and (min-width: 1440px) {
+//     .restaurant-menu {
+//             margin-bottom: 50px;
+//         }
+// }
+.restaurant-menu__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.25;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+    text-align: center;
+}
+.restaurant-menu__dish-title {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 32px;
+    text-align: left;
+}
+
+.restaurant-menu__dish-item {
+    font-weight: 500;
+    line-height: 1,29;
+}
+.restaurant-menu__dish-weigth {
+    font-size: 12px;
+    line-height: 1.17;
+    color: #D8D7D7;
+}
+.restaurant-menu__dish-composition {
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 0.18em;
+    color: rgba(216, 215, 215, 0.5);
+    width: 233px
+}
+.justyfy-flex--position {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.restaurant-menu__dish-group {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 8px;
+    margin-bottom: 14px;
+}

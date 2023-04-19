@@ -2,6 +2,7 @@
 @import './reset';
 @import './variables';
 @import './base';
+@import './fonts';
 
 // Home page
 @import './home/home-hero';
@@ -13,5 +14,5 @@
 
 
 // @import './restaurant/about-kitchen';
-
+@import './restaurant/reataurant-menu';
 @import './common';

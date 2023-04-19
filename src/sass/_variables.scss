@@ -3,6 +3,12 @@
     --ligth-theme-color: #F7F7F7;
     --white-theme-color: #FFFFFF;
 }
-
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -.02em;
+    color: var(--dark-theme-color);
+}
 
 
