@@ -47,6 +47,11 @@
     color: rgba(216, 215, 215, 0.5);
     width: 233px
 }
+.restaurant-menu__dish-price {
+    font-weight: 700;
+    line-height: 1.29;
+    text-transform: uppercase;
+}
 .justyfy-flex--position {
     display: flex;
     flex-direction: row;

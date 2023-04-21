@@ -3,18 +3,52 @@
 }
 
 .hero--bg-image {
-
+    max-width: 1440px;
+    margin: 0 auto;
+    // background-color: ???;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    
+    // Mobile screen
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%),
         url(../images/home/hero/hero_sm@1x.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+    
+    @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%),
+                url(../images/home/hero/hero_sm@2x.jpg);
+        }
 
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+
+
+        // Tablet screen 
+        @media screen and (min-width: 768px) and (max-width: 1439.89px){
         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%),
-            url(../images/home/hero/hero_sm@2x.jpg);
-    }
+            url(../images/home/hero/hero_md@1x.jpg);
+    
+            @media screen and (min-device-pixel-ratio: 2),
+                (min-resolution: 192dpi),
+                (min-resolution: 2dppx) {
+                    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%),
+                        url(../images/home/hero/hero_md@2x.jpg);
+                }
+        }
+        // Descktop screen
+ @media screen and (min-width: 1440px) {
+    background-position: right;
+     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 80%, rgba(18, 18, 18, 0.8) 100%),
+         url(../images/home/hero/hero_lg@1x.jpg);
+     
+     @media screen and (min-device-pixel-ratio: 2),
+     (min-resolution: 192dpi),
+     (min-resolution: 2dppx) {
+         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 80%, rgba(18, 18, 18, 0.8) 100%),
+             url(../images/home/hero/hero_lg@2x.jpg);
+     }
+ }
+    
 
     padding-top: 389px;
 }

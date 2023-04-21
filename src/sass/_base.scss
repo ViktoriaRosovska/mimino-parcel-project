@@ -10,7 +10,9 @@
     width: 1px;
     overflow: hidden;
 }
-
+.page {
+    overflow: hidden;
+}
 .section {
     background-color: var(--ligth-theme-color);
     min-width: 320px;
@@ -36,9 +38,28 @@
     outline: 1px solid red;
 
     min-width: 320px;
-    max-width: 375px;
+    // max-width: 375px;
+   
+   
 }
+ @media screen and (min-width: 375px) and (max-width: 767.98px) {
+    .container {
+       width: 375px; 
+    }
+        
+    }
+ @media screen and (min-width: 768px) and (max-width: 1439.89px) {
+    .container {
+        width: 768px;
+    }   
+    
+    }
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1440px;
+    }
 
+}
 .container--hero {
     padding-top: 40px;
 }
@@ -103,7 +124,14 @@
 }
 .paragraph {
     line-height: 1.29;
-    letter-spacing: .05em;
+    letter-spacing: -.02em;
+    text-transform: uppercase;
+}
+.paragraph--italic {
+    font-style: italic;
+}
+.paragraph--bold {
+    font-weight: 500;
 }
 .home__paragraph {
     margin-bottom: 32px;

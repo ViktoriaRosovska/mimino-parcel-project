@@ -7,12 +7,14 @@
 // Home page
 @import './home/home-hero';
 @import './home/about-complex';
+@import './home/restaurant';
 @import './home/welcome';
 @import './home/hotel-details';
 
 // Hotel page
 
 
-// @import './restaurant/about-kitchen';
+
+@import './restaurant/about-kitchen';
 @import './restaurant/reataurant-menu';
 @import './common';
