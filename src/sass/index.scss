@@ -3,6 +3,7 @@
 @import './variables';
 @import './base';
 @import './fonts';
+@import './common';
 
 // Home page
 @import './home/home-hero';
@@ -17,4 +18,9 @@
 
 @import './restaurant/about-kitchen';
 @import './restaurant/reataurant-menu';
-@import './common';
+
+
+
+// Slider Swiper
+
+@import './swiper/base_swiper';

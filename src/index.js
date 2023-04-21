@@ -1,0 +1,1 @@
+import './js/hotel-hero__slider.js';

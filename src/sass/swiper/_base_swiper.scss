@@ -1,0 +1,40 @@
+.hotel__container {
+ padding-right: 0;
+ padding-left: 20px;
+ overflow: hidden;
+}
+.hotel-slider__container {
+
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: transparent;
+    border: transparent;
+    z-index: 10;
+    cursor: pointer; 
+}
+
+.swiper-button-next::after {
+    content: '';
+    color: red;
+   position: absolute;
+   top: 200px;
+   right: 0px;
+}
+
+.swiper-button-prev::after {
+    content: '';
+    color: red;
+    position: absolute;
+    right: -200px;
+    top: 200px
+}
+
+.hotel-hero__slider {
+height: 529px;
+width: 375px;
+// overflow: hidden;
+position: relative;
+outline: 1px solid green;
+}
