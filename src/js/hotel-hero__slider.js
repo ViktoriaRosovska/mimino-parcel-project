@@ -1,23 +1,33 @@
-new Swiper(".hotel-hero__slider", {
-    spaceBetween: 20,
-    slidesPerView: 1.5,
-    slidesPerGroup: 1,
-    allowSlidePrev: true,
-    allowSlideNext: true,
-    resizeObserver: false,
+new Swiper('.hotel-hero__slider', {
     loop: true,
-    loopedSlides: 3,
-    autoplay: {
+    spaceBetween: 20,
+     autoplay: {
         delay: 2500,
-        stopOnLastSlide: false,
-        disabledOnIteration: false,
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-     },
-    speed: 600,
-    // effect: 'fade',
+        disableOnInteraction: false,
+      },
+    slidesPerView: 1.5,
+    breakpoints: {
+        375: {
+           slidesPerView: 1.5,
+        },
+        768: {
+            slidesPerView: 1.5,
+        },
+        1440: {
+            slidesPerView: 1.5,
+        },
+   },
     
-//    direction: 'vertical',
+    // autoplay: {
+    //     delay: 2500,
+    //     stopOnLastSlide: false,
+    //     disabledOnIteration: false,
+    // },
+    navigation: {
+        nextEl: ".swiper-button-next-1",
+        prevEl: ".swiper-button-prev-1",
+      },
+    // speed: 600,
+     
+  
 });
