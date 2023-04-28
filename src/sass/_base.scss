@@ -55,22 +55,6 @@
    
 }
  
-//  @media screen and (min-width: 768px) and (max-width: 1439.89px) {
-//     .container {
-//         width: 768px;
-//     }   
-    
-//     }
-// @media screen and (min-width: 1440px) {
-//     .container {
-//         width: 1440px;
-//     }
-
-// }
-.container--hero {
-    padding-top: 40px;
-}
-
 
 .btn--group {
     display: flex;
@@ -88,6 +72,12 @@
     display: block;
     border: .8px solid var(--dark-theme-color);
     color: var(--dark-theme-color);
+    @media screen and (min-width: 1440px) {
+        padding: 9px 24px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 1.33;
+    }
 }
 
 .btn--light-theme {
@@ -102,18 +92,7 @@
     margin-left: auto;
     
 }
-.site-title {
-    text-transform: uppercase;
 
-    // Mobile version
-    font-size: 80px;
-    line-height: 1;
-    letter-spacing: -.02em;
-    font-weight:  400;
-    margin-bottom: 24px;
-    
-    text-align: center;
-}
 
 .section-title {
     letter-spacing: -.02em;
